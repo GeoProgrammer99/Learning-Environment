@@ -2,57 +2,162 @@
 <html lang="fr"
 
 <head>
+    <link rel = "stylesheet" href ="style.css" />
 <meta charset="UTF-8"/>
 <title> Ma Page HTML</title>
 
 </head>
 
 <body>
-    <h1>Le Markdown</h1> 
+    <h1>Titres</h1> 
+
+    <p>Pour créer un heading, ajouter "#" devant un mot ou une phrase. Le nombre de "#" que vous utilisez correspond au niveau de heading. <br>
+    Par exemple, pour créer un heading de niveau 3 (h3), utilisez 3 fois "#" (e.g., ### Mon Header). </p>
+    
+    <h2> Exemple: </h2>
+    
+        <p>Salut </p>
+    
+    <h1>Ce qui nous donne : </h1>
+    
+    <p> Salut </p>
+    
+    
+    
+    <h2>Paragraphes</h2>
+    
+    <p>Pour créer des paragraphes, utilisez une ligne blanche pour séparer une ou plusieurs lignes de texte. Vous ne devez pas utiliser d'espaces ou de tabs.
+    
+    --- </p>
+    
+    <h2> Sauts de ligne </h2>
+    
+    <p>Pour créer un saut de ligne, finissez une ligne avec 2 ou plusieurs espaces, et puis tapez retour.</p>
+    
+    --- </p>
+    
+    <h1> 4. Mise en évidence </h1>
+    
+    <h2>Il existe plusieurs types de mise en évidences : </h2>
+    
+    <h2>- Mettre en gras <h2>
+    
+      <p>Pour mettre en gras en markdown, il vous suffit d'ajouter deux astérisques (\*) ou underscores (\_) avant et après le mot ou la phrase que vous voulez mettre en évidence.
+    
+            Exemple : **un mot** ou __une phrase quelconque__ </p>
+    
+      <h2> Résultat : </h2>
+    
+      <p><b>> **un mot** ou **une phrase quelconque**</b></p>
+    
+    <h2><em>-  Mettre en italique</em></h2>
+    
+      <p>Pour mettre en italique en markdown, il suffit d'ajouter seulement un astérisque (\*) ou underscore (\_) avant et après le mot ou la phrase que vous voulez mettre en évidence.
+    
+            Exemple : *mot* ou _phrase_ </p>
+    
+      <h2>Résultat : </h2>
+    
+      <p>> _un mot_ ou _une phrase quelconque_ </p>
+    
+    <h2>-  Mettre en gras et italique</h2>
+    
+     <p> Pour faire les deux en même temps, il suffit d'ajouter trois astérisques (\*) ou underscores (\_) avant et après le mot ou la phrase à mettre en évidence. 
+    
+            Exemple : ***mot*** ou ___phrase___ </p>
+    
+     <h2> #### Résultat : </h2>
+    
+      <p>> **_un mot_** ou **_une phrase quelconque_** </p>
+    
+    
+    
+    <br>
+    
+    <h1> 5. Bloc de citations</h1> 
+    
+     </h2> Il existe plusieurs types de blocs de citations : </h2>
+    
+    <h3>- Simple bloc de citations </h3>
+    
+      <p>Il suffit d'ajouter un simple > devant votre paragraphe. 
+    
+            Exemple : > Dorothy followed her through many of the beautiful rooms in her castle. She had a lot of fun.</p>
+    
+    
+        <h4> Résultat : </h4>
+      </p> >Drothy followed her through many of the beautiful rooms in her castle. </p>
+    
+     <h2>- Bloc de citations avec pararaphes </h2>
+    
+      <p>A chaque nouvelle ligne, ajoutez un > devant votre paragraphe.
+    
+            Exemple : >paragraphe1
+                      >paragraphe2
+                      >paragraphe3
+      </p>
+    
+      <h3>  Résultat :</h3>
+    <ol>
+      <li>> paragraphe1 </li>
+      <li>> paragraphe2 </li>
+      <li>> paragraphe3 </li>
+    
+    </ol>
+
 
     
-
-    <h2>Qu'est-ce que le Markdown ?</h2> 
+    <br>
     
-    <p>C'est un language très simple qui **permet d'écrire du HTML plus facilement.<br>
-        Les créateurs l'ont conçu pour ne pas devoir écrire manuellement du HTML pour mettre en forme leurs messages sur les forums, par exemple.<br>
-        
-        Il est très utile pour pouvoir **rédiger de la documention sur GitHub**.<br>
-        
-        Vous trouverez ci-dessous la table des matières pour utiliser très simplement la syntaxe du markdown.</p><br>
+    <h1>6. Listes </h1>
     
-    <h2>Table des matières :</h2> 
+    <h2>Il existe plusieurs types de listes : <h2>
     
-    <h3>- [Titres](markdown.md#Titres) <br>
-        - [Paragraphes](markdown.md#Paragraphes) <br>
-        - [Sauts de ligne](<markdown.md#Sauts de ligne>) <br>
-        - [Mise en évidence](<markdown.md#Mise en évidence>) <br>
-        - [Bloc de citations](<markdown.md#Bloc de citations>) <br>
-        - [Listes](markdown.md#Listes) <br>
-        - [Bloc Code](<markdown.md#Bloc Code>) <br>
-        - [Barre Horizontale](<markdown.md#Barre Horizontale>) <br>
-        - [Liens](markdown.md#Liens) <br>
-        - [Images](markdown.md#Images) <br>
-        - [Caractères d'échappement](<markdown.md#Caractères d'échappement>) <br>
+    <h3>-  Liste ordonnée </h3>
     
-        </h3>
+     <p> Pour avoir une liste ordonnée, il suffit de mettre des numéros à partir de 1 suivi d'un point devant vos listes items.
+    
+                Exemple : </p>
+                
+                <ol>
+                    <li>Item1</li>
+                    <li>Item2 </li>
+                    <li>Item3 </li>
+                     <li>Item4 </li>
+                </ol>
+    
+      <h2>Résultat : </h2>
+    <ol>
+      <li>1. Item1 </li> 
+      <li>2. Item2</li>
+      <li>3. Item3 </li>
+    </ol>
+    
+    <h2>- ### Liste non-ordonnée </h2>
+    
+      <p>Pour avoir une liste non-ordonnée, il suffit de mettre un astérique devant vos listes items.
+    
+                Exemple : </p>
+                <ul>
+                <li>* Item1 </li>
+                    <li>      * Item2 </li>
+                      <li>    * Item3 </li>
+                </ul>
+    
+      <h2>Résultat : </h2>
+    
+      <ul>
+   <li>  >  - Item1 </li>
+      <li>> - Item2 </li>
+     <li> > - Item3 </li>
+      </ul>
     
     
-    <h4>Lien des consignes </h4>
-    
-    <a href="https://github.com/becodeorg/LIE-Hamilton-3.19/blob/master/contenu/01-la-prairie/00-terminal-git-markdown/markdown/group-work.md](https://github.com/becodeorg/LIE-Hamilton-3.19/blob/master/contenu/01-la-prairie/00-terminal-git-markdown/markdown/group-work.md">OpenClassrooms</a> <!-- ceci est un lien--> <br>
     
     
-    <h5>Contributeurs</h5>
-    <a href = "https://github.com/AnthonySchyns" >[Anthony Schyns]</a> <br>
-    <a href = "https://github.com/Bawer-Agirman" >[Bawer Agirman]</a> <br>
-    <a href = "https://github.com/GeoProgrammer99" >[Geoffrey Wislez]</a> <br>
-    <a href = "https://github.com/GoffetteDorian/" >[Dorian Goffette]</a> <br>
-    <a href = "https://github.com/Guillaume-Boeur" >[Guillaume Boeur]</a> <br>
 </body>
 
 </html>
-
 
 
 
